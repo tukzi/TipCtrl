@@ -15,6 +15,7 @@
 		14F439F11B159558008C72B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F439F01B159558008C72B6 /* Images.xcassets */; };
 		14F439F41B159558008C72B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F439F21B159558008C72B6 /* LaunchScreen.xib */; };
 		14F43A001B159559008C72B6 /* TipCtrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F439FF1B159559008C72B6 /* TipCtrlTests.m */; };
+		14F43A0B1B15957C008C72B6 /* CMMessageTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F43A0A1B15957C008C72B6 /* CMMessageTipsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		14F439F91B159559008C72B6 /* TipCtrlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCtrlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F439FE1B159559008C72B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F439FF1B159559008C72B6 /* TipCtrlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCtrlTests.m; sourceTree = "<group>"; };
+		14F43A091B15957C008C72B6 /* CMMessageTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMessageTipsView.h; sourceTree = "<group>"; };
+		14F43A0A1B15957C008C72B6 /* CMMessageTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMessageTipsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				14F439E51B159558008C72B6 /* AppDelegate.m */,
 				14F439EA1B159558008C72B6 /* ViewController.h */,
 				14F439EB1B159558008C72B6 /* ViewController.m */,
+				14F43A091B15957C008C72B6 /* CMMessageTipsView.h */,
+				14F43A0A1B15957C008C72B6 /* CMMessageTipsView.m */,
 				14F439ED1B159558008C72B6 /* Main.storyboard */,
 				14F439F01B159558008C72B6 /* Images.xcassets */,
 				14F439F21B159558008C72B6 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F439E61B159558008C72B6 /* AppDelegate.m in Sources */,
+				14F43A0B1B15957C008C72B6 /* CMMessageTipsView.m in Sources */,
 				14F439E91B159558008C72B6 /* TipCtrl.xcdatamodeld in Sources */,
 				14F439EC1B159558008C72B6 /* ViewController.m in Sources */,
 				14F439E31B159558008C72B6 /* main.m in Sources */,

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMMessageTipsView.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)CMMessageTipsView *tipsView;
 
 @end
 
